@@ -1,0 +1,11 @@
+{
+  "loss": 1.2545668206773684,
+  "token_accuracy": 0.5602847471127042,
+  "top3_accuracy": 0.8423934687375547,
+  "token_precision": 0.32968588920446634,
+  "char_accuracy": 0.9461991229958199,
+  "structural_pass_rate": 0.4777694750607136,
+  "validity_rate": 0.6488884737530357,
+  "n_tokens": 20088.0,
+  "n_sequences": 10706.0
+}

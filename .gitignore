@@ -57,6 +57,3 @@ Thumbs.db
 # Data, models, results
 data/
 models/
-results/*
-!results/**/*.png
-!results/**/*.json

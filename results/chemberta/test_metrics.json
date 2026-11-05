@@ -1,0 +1,8 @@
+{
+  "masked_token_accuracy_top1": 0.798065399760315,
+  "perplexity": 2.8826554091175987,
+  "test_loss": 1.0587118864059448,
+  "test_runtime": 6.0244,
+  "test_samples_per_second": 1777.105,
+  "test_steps_per_second": 13.943
+}
