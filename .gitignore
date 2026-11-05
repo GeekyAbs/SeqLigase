@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Dataset / generated artefacts
+# ---------------------------------------------------------------------------
+data/raw/*
+!data/raw/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+artifacts/plots/*
+!artifacts/plots/.gitkeep
+artifacts/exports/*
+!artifacts/exports/.gitkeep
+artifacts/*.json
+
+# ---------------------------------------------------------------------------
+# module_4 notebook outputs (created by running the notebook)
+# ---------------------------------------------------------------------------
+module_4/checkpoints/*
+module_4/data/raw/*
+module_4/plots/*
+module_4/exports/*
+module_4/vocab.json
+module_4/history.json
+module_4/test_metrics.json
+module_4/span_length_metrics.csv
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------------------------------------------------------------------
+# Environments / secrets
+# ---------------------------------------------------------------------------
+.env
+.env.*
+.venv/
+venv/
+env/
+kaggle.json
+.kaggle/
+
+# ---------------------------------------------------------------------------
+# Notebooks / editors / OS
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Large exported weights
+# ---------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.zip
+
