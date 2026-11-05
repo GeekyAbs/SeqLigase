@@ -12,18 +12,6 @@ artifacts/exports/*
 artifacts/*.json
 
 # ---------------------------------------------------------------------------
-# module_4 notebook outputs (created by running the notebook)
-# ---------------------------------------------------------------------------
-module_4/checkpoints/*
-module_4/data/raw/*
-module_4/plots/*
-module_4/exports/*
-module_4/vocab.json
-module_4/history.json
-module_4/test_metrics.json
-module_4/span_length_metrics.csv
-
-# ---------------------------------------------------------------------------
 # Python
 # ---------------------------------------------------------------------------
 __pycache__/
